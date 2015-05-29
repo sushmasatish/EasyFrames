@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA0883C1B18FCB400ACC7B4 /* EasyFrames.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5BA0883B1B18FCB400ACC7B4 /* EasyFrames.h */; };
+		5BA0883E1B18FCB400ACC7B4 /* EasyFrames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA0883D1B18FCB400ACC7B4 /* EasyFrames.m */; };
+		5BA088441B18FCB400ACC7B4 /* libEasyFrames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA088451B18FCB400ACC7B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA088301B18FCB400ACC7B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA088371B18FCB400ACC7B4;
+			remoteInfo = EasyFrames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5BA088361B18FCB400ACC7B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5BA0883C1B18FCB400ACC7B4 /* EasyFrames.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyFrames.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA0883B1B18FCB400ACC7B4 /* EasyFrames.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyFrames.h; sourceTree = "<group>"; };
+		5BA0883D1B18FCB400ACC7B4 /* EasyFrames.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFrames.m; sourceTree = "<group>"; };
+		5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyFramesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA088491B18FCB400ACC7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA088351B18FCB400ACC7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA088401B18FCB400ACC7B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA088441B18FCB400ACC7B4 /* libEasyFrames.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA0882F1B18FCB400ACC7B4 = {
+			isa = PBXGroup;
+			children = (
+				5BA0883A1B18FCB400ACC7B4 /* EasyFrames */,
+				5BA088471B18FCB400ACC7B4 /* EasyFramesTests */,
+				5BA088391B18FCB400ACC7B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA088391B18FCB400ACC7B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */,
+				5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA0883A1B18FCB400ACC7B4 /* EasyFrames */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0883B1B18FCB400ACC7B4 /* EasyFrames.h */,
+				5BA0883D1B18FCB400ACC7B4 /* EasyFrames.m */,
+			);
+			path = EasyFrames;
+			sourceTree = "<group>";
+		};
+		5BA088471B18FCB400ACC7B4 /* EasyFramesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA088481B18FCB400ACC7B4 /* Supporting Files */,
+			);
+			path = EasyFramesTests;
+			sourceTree = "<group>";
+		};
+		5BA088481B18FCB400ACC7B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA088491B18FCB400ACC7B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA088371B18FCB400ACC7B4 /* EasyFrames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA0884C1B18FCB400ACC7B4 /* Build configuration list for PBXNativeTarget "EasyFrames" */;
+			buildPhases = (
+				5BA088341B18FCB400ACC7B4 /* Sources */,
+				5BA088351B18FCB400ACC7B4 /* Frameworks */,
+				5BA088361B18FCB400ACC7B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyFrames;
+			productName = EasyFrames;
+			productReference = 5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5BA088421B18FCB400ACC7B4 /* EasyFramesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA0884F1B18FCB400ACC7B4 /* Build configuration list for PBXNativeTarget "EasyFramesTests" */;
+			buildPhases = (
+				5BA0883F1B18FCB400ACC7B4 /* Sources */,
+				5BA088401B18FCB400ACC7B4 /* Frameworks */,
+				5BA088411B18FCB400ACC7B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA088461B18FCB400ACC7B4 /* PBXTargetDependency */,
+			);
+			name = EasyFramesTests;
+			productName = EasyFramesTests;
+			productReference = 5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA088301B18FCB400ACC7B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Appsify;
+				TargetAttributes = {
+					5BA088371B18FCB400ACC7B4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5BA088421B18FCB400ACC7B4 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 5BA088331B18FCB400ACC7B4 /* Build configuration list for PBXProject "EasyFrames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BA0882F1B18FCB400ACC7B4;
+			productRefGroup = 5BA088391B18FCB400ACC7B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA088371B18FCB400ACC7B4 /* EasyFrames */,
+				5BA088421B18FCB400ACC7B4 /* EasyFramesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA088411B18FCB400ACC7B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA088341B18FCB400ACC7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA0883E1B18FCB400ACC7B4 /* EasyFrames.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA0883F1B18FCB400ACC7B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA088461B18FCB400ACC7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA088371B18FCB400ACC7B4 /* EasyFrames */;
+			targetProxy = 5BA088451B18FCB400ACC7B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BA0884A1B18FCB400ACC7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BA0884B1B18FCB400ACC7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA0884D1B18FCB400ACC7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BA0884E1B18FCB400ACC7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5BA088501B18FCB400ACC7B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyFramesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA088511B18FCB400ACC7B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyFramesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA088331B18FCB400ACC7B4 /* Build configuration list for PBXProject "EasyFrames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA0884A1B18FCB400ACC7B4 /* Debug */,
+				5BA0884B1B18FCB400ACC7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA0884C1B18FCB400ACC7B4 /* Build configuration list for PBXNativeTarget "EasyFrames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA0884D1B18FCB400ACC7B4 /* Debug */,
+				5BA0884E1B18FCB400ACC7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA0884F1B18FCB400ACC7B4 /* Build configuration list for PBXNativeTarget "EasyFramesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA088501B18FCB400ACC7B4 /* Debug */,
+				5BA088511B18FCB400ACC7B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA088301B18FCB400ACC7B4 /* Project object */;
+}
