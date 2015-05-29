@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BA088441B18FCB400ACC7B4 /* libEasyFrames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */; };
-		5BA088571B18FD1800ACC7B4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA088561B18FD1800ACC7B4 /* UIView+Frame.m */; };
+		5BA088571B18FD1800ACC7B4 /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA088561B18FD1800ACC7B4 /* UIView+EasyFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 		5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyFrames.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyFramesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA088491B18FCB400ACC7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA088551B18FD1800ACC7B4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		5BA088561B18FD1800ACC7B4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5BA088551B18FD1800ACC7B4 /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
+		5BA088561B18FD1800ACC7B4 /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +121,8 @@
 		5BA088541B18FD1800ACC7B4 /* Frame */ = {
 			isa = PBXGroup;
 			children = (
-				5BA088551B18FD1800ACC7B4 /* UIView+Frame.h */,
-				5BA088561B18FD1800ACC7B4 /* UIView+Frame.m */,
+				5BA088551B18FD1800ACC7B4 /* UIView+EasyFrame.h */,
+				5BA088561B18FD1800ACC7B4 /* UIView+EasyFrame.m */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA088571B18FD1800ACC7B4 /* UIView+Frame.m in Sources */,
+				5BA088571B18FD1800ACC7B4 /* UIView+EasyFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +384,7 @@
 				5BA0884E1B18FCB400ACC7B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA0884F1B18FCB400ACC7B4 /* Build configuration list for PBXNativeTarget "EasyFramesTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +393,7 @@
 				5BA088511B18FCB400ACC7B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

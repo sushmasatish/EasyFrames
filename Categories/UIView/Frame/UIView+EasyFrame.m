@@ -1,11 +1,11 @@
 //
-//  UIView+Frame.m
+//  UIView+EasyFrame.m
 //
 //  Created by Sushma Satish on 28/05/2015.
 //  Copyright (c) 2015 Appsify. All rights reserved.
 //
 
-#import "UIView+Frame.h"
+#import "UIView+EasyFrame.h"
 
 CG_EXTERN CGRect CGRectCrop(CGRect rect,
                             CGFloat left,
@@ -31,7 +31,7 @@ CG_EXTERN CGRect CGRectRescale(CGRect rect,
     return rect;
 }
 
-@implementation UIView (Frame)
+@implementation UIView (EasyFrame)
 
 - (CGFloat)height
 {

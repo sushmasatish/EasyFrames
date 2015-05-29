@@ -1,5 +1,5 @@
 //
-//  UIView+Frame.h
+//  UIView+EasyFrame.h
 //
 //  Created by Sushma Satish on 28/05/2015.
 //  Copyright (c) 2015 Appsify. All rights reserved.
@@ -17,7 +17,7 @@ CG_EXTERN CGRect CGRectRescale(CGRect rect,
                                CGFloat width,
                                CGFloat height);
 
-@interface UIView (Frame)
+@interface UIView (EasyFrame)
 
 @property (nonatomic, assign) CGFloat height;
 @property (nonatomic, assign) CGFloat width;
