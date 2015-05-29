@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/sushmasatish/EasyFrames.git", :branch => "master"}
+  s.source       = { :git => "https://github.com/sushmasatish/EasyFrames.git", :branch => "master", :tag => "1.0"}
 
   s.source_files  = "**/*.{h,m}"
   s.public_header_files = "**/*.{h}"
