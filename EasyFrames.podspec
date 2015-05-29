@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://www.appsify.org"
   s.license      = {:type => 'PRIVATE USE', :file => 'LICENSE.md' }
-  s.author       = { "Appsify Support" => "support@appsify.org" }
+  s.author       = { "Sushma Satish" => "sushmasatish@gmail.com" }
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "git@bitbucket.org:appsifylimited/moneysage-service-for-ios.git", :branch => "master"}
+  s.source       = { :git => "git@github.com:sushmasatish/EasyFrames.git", :branch => "master"}
 
   s.source_files  = "EasyFrames/**/*.{h,m}"
   s.public_header_files = "EasyFrames/**/*.{h}"
