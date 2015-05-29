@@ -2,7 +2,6 @@
 //  UIView+EasyFrame.m
 //
 //  Created by Sushma Satish on 28/05/2015.
-//  Copyright (c) 2015 Appsify. All rights reserved.
 //
 
 #import "UIView+EasyFrame.h"
