@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BA088441B18FCB400ACC7B4 /* libEasyFrames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */; };
-		5BE089191B190DAD00E71EEE /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE089181B190DAD00E71EEE /* UIView+EasyFrame.m */; };
+		5BE0891F1B190ECF00E71EEE /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0891E1B190ECF00E71EEE /* UIView+EasyFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 		5BA088381B18FCB400ACC7B4 /* libEasyFrames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyFrames.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyFramesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA088491B18FCB400ACC7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE089171B190DAD00E71EEE /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
-		5BE089181B190DAD00E71EEE /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
+		5BE0891D1B190ECF00E71EEE /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
+		5BE0891E1B190ECF00E71EEE /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		5BA0882F1B18FCB400ACC7B4 = {
 			isa = PBXGroup;
 			children = (
-				5BA0883A1B18FCB400ACC7B4 /* EasyFrames */,
+				5BE0891A1B190ECF00E71EEE /* EasyFrames */,
 				5BA088471B18FCB400ACC7B4 /* EasyFramesTests */,
 				5BA088391B18FCB400ACC7B4 /* Products */,
 			);
@@ -76,14 +76,6 @@
 				5BA088431B18FCB400ACC7B4 /* EasyFramesTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5BA0883A1B18FCB400ACC7B4 /* EasyFrames */ = {
-			isa = PBXGroup;
-			children = (
-				5BA088521B18FD1800ACC7B4 /* Categories */,
-			);
-			path = EasyFrames;
 			sourceTree = "<group>";
 		};
 		5BA088471B18FCB400ACC7B4 /* EasyFramesTests */ = {
@@ -102,27 +94,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5BA088521B18FD1800ACC7B4 /* Categories */ = {
+		5BE0891A1B190ECF00E71EEE /* EasyFrames */ = {
 			isa = PBXGroup;
 			children = (
-				5BA088531B18FD1800ACC7B4 /* UIView */,
+				5BE0891B1B190ECF00E71EEE /* UIView */,
 			);
-			path = Categories;
-			sourceTree = SOURCE_ROOT;
+			path = EasyFrames;
+			sourceTree = "<group>";
 		};
-		5BA088531B18FD1800ACC7B4 /* UIView */ = {
+		5BE0891B1B190ECF00E71EEE /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				5BE089161B190DAD00E71EEE /* EasyFrame */,
+				5BE0891C1B190ECF00E71EEE /* EasyFrame */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		5BE089161B190DAD00E71EEE /* EasyFrame */ = {
+		5BE0891C1B190ECF00E71EEE /* EasyFrame */ = {
 			isa = PBXGroup;
 			children = (
-				5BE089171B190DAD00E71EEE /* UIView+EasyFrame.h */,
-				5BE089181B190DAD00E71EEE /* UIView+EasyFrame.m */,
+				5BE0891D1B190ECF00E71EEE /* UIView+EasyFrame.h */,
+				5BE0891E1B190ECF00E71EEE /* UIView+EasyFrame.m */,
 			);
 			path = EasyFrame;
 			sourceTree = "<group>";
@@ -215,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE089191B190DAD00E71EEE /* UIView+EasyFrame.m in Sources */,
+				5BE0891F1B190ECF00E71EEE /* UIView+EasyFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
