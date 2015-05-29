@@ -2,10 +2,10 @@
 EasyFrames is an objective-c view helper category which eases modifying UIView frames.
 
 #How to use
-Import the UIView+Frame category into your .pch file.
+Import the UIView+EasyFrame category into your .pch file.
 
 ```Objective-C
-#import <UIView+Frame.h>
+#import <UIView+EasyFrame.h>
 ```
 
 And then to change frames on a view, just do:
