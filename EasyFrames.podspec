@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "git@github.com:sushmasatish/EasyFrames.git", :branch => "master"}
+  s.source       = { :git => "https://github.com/sushmasatish/EasyFrames.git", :branch => "master"}
 
-  s.source_files  = "EasyFrames/**/*.{h,m}"
-  s.public_header_files = "EasyFrames/**/*.{h}"
+  s.source_files  = "**/*.{h,m}"
+  s.public_header_files = "**/*.{h}"
 
   s.requires_arc = true
 
