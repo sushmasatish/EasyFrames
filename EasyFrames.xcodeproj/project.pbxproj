@@ -176,10 +176,11 @@
 			};
 			buildConfigurationList = 5BA088331B18FCB400ACC7B4 /* Build configuration list for PBXProject "EasyFrames" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 5BA0882F1B18FCB400ACC7B4;
 			productRefGroup = 5BA088391B18FCB400ACC7B4 /* Products */;
